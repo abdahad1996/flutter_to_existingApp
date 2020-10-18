@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'dart:developer';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -50,10 +51,19 @@ class _MyHomePageState extends State<MyHomePage> {
   var color = Colors.purple;
   static const platform =
       const MethodChannel('com.addingFlutterToExistingIosProject/data');
+  static const fluttetToIos =
+      const MethodChannel('com.addingFlutterToExistingIosProject/callBack');
   int _counter = 0;
   _MyHomePageState() {
+    //recieve data from ios
     platform.setMethodCallHandler(_receiveFromHost);
   }
+
+  sendDataToIos() {
+    _counter = _counter + 1;
+    fluttetToIos.invokeMethod("toIos", {"counter": _counter});
+  }
+
   Future<void> _receiveFromHost(MethodCall call) async {
     // Will be used for retrieving data passed from
     // the native iOS app.
@@ -79,19 +89,8 @@ class _MyHomePageState extends State<MyHomePage> {
       } else if (jData['color'] == 'green') {
         color = Colors.green;
       } else {
-        color = Colors.pink;
+        color = Colors.grey;
       }
-    });
-  }
-
-  void _incrementCounter() {
-    setState(() {
-      // This call to setState tells the Flutter framework that something has
-      // changed in this State, which causes it to rerun the build method below
-      // so that the display can reflect the updated values. If we changed
-      // _counter without calling setState(), then the build method would not be
-      // called again, and so nothing would appear to happen.
-      _counter++;
     });
   }
 
@@ -145,7 +144,7 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
       ),
       floatingActionButton: FloatingActionButton(
-        onPressed: _incrementCounter,
+        onPressed: sendDataToIos,
         tooltip: 'Increment',
         child: Icon(Icons.add),
       ), // This trailing comma makes auto-formatting nicer for build methods.
