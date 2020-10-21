@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-addingFlutterToExistingIosProject-addingFlutterToExistingIosProjectUITests/Pods-addingFlutterToExistingIosProject-addingFlutterToExistingIosProjectUITests-frameworks.sh
+${PODS_ROOT}/../../flutterNavigate/.ios/Flutter/engine/Flutter.framework
+${PODS_ROOT}/../../flutterNavigate/.ios/Flutter/App.framework

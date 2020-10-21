@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26B3C9AAC22FF36E9E4C8CF9 /* Pods_addingFlutterToExistingIosProject_addingFlutterToExistingIosProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D4E6933EF2F26328025FCA7 /* Pods_addingFlutterToExistingIosProject_addingFlutterToExistingIosProjectUITests.framework */; };
+		63345F26253B255100C4B121 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63345F25253B255100C4B121 /* AppDelegate.swift */; };
+		63345F28253B255100C4B121 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63345F27253B255100C4B121 /* SceneDelegate.swift */; };
+		63345F2A253B255100C4B121 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63345F29253B255100C4B121 /* ViewController.swift */; };
+		63345F2D253B255100C4B121 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63345F2B253B255100C4B121 /* Main.storyboard */; };
+		63345F2F253B255800C4B121 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63345F2E253B255800C4B121 /* Assets.xcassets */; };
+		63345F32253B255800C4B121 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63345F30253B255800C4B121 /* LaunchScreen.storyboard */; };
+		63345F3D253B255900C4B121 /* addingFlutterToExistingIosProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63345F3C253B255900C4B121 /* addingFlutterToExistingIosProjectTests.swift */; };
+		63345F48253B255900C4B121 /* addingFlutterToExistingIosProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63345F47253B255900C4B121 /* addingFlutterToExistingIosProjectUITests.swift */; };
+		63AE6E285252D3AE2C30B7FF /* Pods_addingFlutterToExistingIosProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 572C1439C329636C2BBB4E17 /* Pods_addingFlutterToExistingIosProjectTests.framework */; };
+		8660D4A8AF0D3DFCE9A9D411 /* Pods_addingFlutterToExistingIosProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 070D0FF927953C07BEBF85BD /* Pods_addingFlutterToExistingIosProject.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63345F39253B255900C4B121 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63345F1A253B255100C4B121 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63345F21253B255100C4B121;
+			remoteInfo = addingFlutterToExistingIosProject;
+		};
+		63345F44253B255900C4B121 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63345F1A253B255100C4B121 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63345F21253B255100C4B121;
+			remoteInfo = addingFlutterToExistingIosProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		070D0FF927953C07BEBF85BD /* Pods_addingFlutterToExistingIosProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_addingFlutterToExistingIosProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		111CDCC01276C06C96E48129 /* Pods-addingFlutterToExistingIosProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-addingFlutterToExistingIosProjectTests.release.xcconfig"; path = "Target Support Files/Pods-addingFlutterToExistingIosProjectTests/Pods-addingFlutterToExistingIosProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		119B55A4F4DFF6056C2DE0E4 /* Pods-addingFlutterToExistingIosProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-addingFlutterToExistingIosProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-addingFlutterToExistingIosProjectTests/Pods-addingFlutterToExistingIosProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2855C8772ED040F926444F8C /* Pods-addingFlutterToExistingIosProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-addingFlutterToExistingIosProject.debug.xcconfig"; path = "Target Support Files/Pods-addingFlutterToExistingIosProject/Pods-addingFlutterToExistingIosProject.debug.xcconfig"; sourceTree = "<group>"; };
+		4D4E6933EF2F26328025FCA7 /* Pods_addingFlutterToExistingIosProject_addingFlutterToExistingIosProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_addingFlutterToExistingIosProject_addingFlutterToExistingIosProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		572C1439C329636C2BBB4E17 /* Pods_addingFlutterToExistingIosProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_addingFlutterToExistingIosProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63345F22253B255100C4B121 /* addingFlutterToExistingIosProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = addingFlutterToExistingIosProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63345F25253B255100C4B121 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		63345F27253B255100C4B121 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		63345F29253B255100C4B121 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		63345F2C253B255100C4B121 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63345F2E253B255800C4B121 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63345F31253B255800C4B121 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		63345F33253B255800C4B121 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63345F38253B255900C4B121 /* addingFlutterToExistingIosProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = addingFlutterToExistingIosProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63345F3C253B255900C4B121 /* addingFlutterToExistingIosProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addingFlutterToExistingIosProjectTests.swift; sourceTree = "<group>"; };
+		63345F3E253B255900C4B121 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63345F43253B255900C4B121 /* addingFlutterToExistingIosProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = addingFlutterToExistingIosProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63345F47253B255900C4B121 /* addingFlutterToExistingIosProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addingFlutterToExistingIosProjectUITests.swift; sourceTree = "<group>"; };
+		63345F49253B255900C4B121 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6ADAAC02B71515E9DD0B836C /* Pods-addingFlutterToExistingIosProject-addingFlutterToExistingIosProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-addingFlutterToExistingIosProject-addingFlutterToExistingIosProjectUITests.release.xcconfig"; path = "Target Support Files/Pods-addingFlutterToExistingIosProject-addingFlutterToExistingIosProjectUITests/Pods-addingFlutterToExistingIosProject-addingFlutterToExistingIosProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A487EC997BBB0DD13E7200D1 /* Pods-addingFlutterToExistingIosProject-addingFlutterToExistingIosProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-addingFlutterToExistingIosProject-addingFlutterToExistingIosProjectUITests.debug.xcconfig"; path = "Target Support Files/Pods-addingFlutterToExistingIosProject-addingFlutterToExistingIosProjectUITests/Pods-addingFlutterToExistingIosProject-addingFlutterToExistingIosProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E4003D7DFB2B81C72292DCE7 /* Pods-addingFlutterToExistingIosProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-addingFlutterToExistingIosProject.release.xcconfig"; path = "Target Support Files/Pods-addingFlutterToExistingIosProject/Pods-addingFlutterToExistingIosProject.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63345F1F253B255100C4B121 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8660D4A8AF0D3DFCE9A9D411 /* Pods_addingFlutterToExistingIosProject.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63345F35253B255900C4B121 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63AE6E285252D3AE2C30B7FF /* Pods_addingFlutterToExistingIosProjectTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63345F40253B255900C4B121 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26B3C9AAC22FF36E9E4C8CF9 /* Pods_addingFlutterToExistingIosProject_addingFlutterToExistingIosProjectUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63345F19253B255100C4B121 = {
+			isa = PBXGroup;
+			children = (
+				63345F24253B255100C4B121 /* addingFlutterToExistingIosProject */,
+				63345F3B253B255900C4B121 /* addingFlutterToExistingIosProjectTests */,
+				63345F46253B255900C4B121 /* addingFlutterToExistingIosProjectUITests */,
+				63345F23253B255100C4B121 /* Products */,
+				73BA170D036B1E6F57EE2AB3 /* Pods */,
+				9511BCA2988ED931DE95E9D8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		63345F23253B255100C4B121 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63345F22253B255100C4B121 /* addingFlutterToExistingIosProject.app */,
+				63345F38253B255900C4B121 /* addingFlutterToExistingIosProjectTests.xctest */,
+				63345F43253B255900C4B121 /* addingFlutterToExistingIosProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63345F24253B255100C4B121 /* addingFlutterToExistingIosProject */ = {
+			isa = PBXGroup;
+			children = (
+				63345F25253B255100C4B121 /* AppDelegate.swift */,
+				63345F27253B255100C4B121 /* SceneDelegate.swift */,
+				63345F29253B255100C4B121 /* ViewController.swift */,
+				63345F2B253B255100C4B121 /* Main.storyboard */,
+				63345F2E253B255800C4B121 /* Assets.xcassets */,
+				63345F30253B255800C4B121 /* LaunchScreen.storyboard */,
+				63345F33253B255800C4B121 /* Info.plist */,
+			);
+			path = addingFlutterToExistingIosProject;
+			sourceTree = "<group>";
+		};
+		63345F3B253B255900C4B121 /* addingFlutterToExistingIosProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				63345F3C253B255900C4B121 /* addingFlutterToExistingIosProjectTests.swift */,
+				63345F3E253B255900C4B121 /* Info.plist */,
+			);
+			path = addingFlutterToExistingIosProjectTests;
+			sourceTree = "<group>";
+		};
+		63345F46253B255900C4B121 /* addingFlutterToExistingIosProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				63345F47253B255900C4B121 /* addingFlutterToExistingIosProjectUITests.swift */,
+				63345F49253B255900C4B121 /* Info.plist */,
+			);
+			path = addingFlutterToExistingIosProjectUITests;
+			sourceTree = "<group>";
+		};
+		73BA170D036B1E6F57EE2AB3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2855C8772ED040F926444F8C /* Pods-addingFlutterToExistingIosProject.debug.xcconfig */,
+				E4003D7DFB2B81C72292DCE7 /* Pods-addingFlutterToExistingIosProject.release.xcconfig */,
+				A487EC997BBB0DD13E7200D1 /* Pods-addingFlutterToExistingIosProject-addingFlutterToExistingIosProjectUITests.debug.xcconfig */,
+				6ADAAC02B71515E9DD0B836C /* Pods-addingFlutterToExistingIosProject-addingFlutterToExistingIosProjectUITests.release.xcconfig */,
+				119B55A4F4DFF6056C2DE0E4 /* Pods-addingFlutterToExistingIosProjectTests.debug.xcconfig */,
+				111CDCC01276C06C96E48129 /* Pods-addingFlutterToExistingIosProjectTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9511BCA2988ED931DE95E9D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				070D0FF927953C07BEBF85BD /* Pods_addingFlutterToExistingIosProject.framework */,
+				4D4E6933EF2F26328025FCA7 /* Pods_addingFlutterToExistingIosProject_addingFlutterToExistingIosProjectUITests.framework */,
+				572C1439C329636C2BBB4E17 /* Pods_addingFlutterToExistingIosProjectTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63345F21253B255100C4B121 /* addingFlutterToExistingIosProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63345F4C253B255900C4B121 /* Build configuration list for PBXNativeTarget "addingFlutterToExistingIosProject" */;
+			buildPhases = (
+				BC28A40CF971AA7BEB571D38 /* [CP] Check Pods Manifest.lock */,
+				1FCCA2860D6D4307F71019EC /* [CP-User] Run Flutter Build flutterNavigate Script */,
+				63345F1E253B255100C4B121 /* Sources */,
+				63345F1F253B255100C4B121 /* Frameworks */,
+				63345F20253B255100C4B121 /* Resources */,
+				674B17E78F2E95BE07D7F954 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = addingFlutterToExistingIosProject;
+			productName = addingFlutterToExistingIosProject;
+			productReference = 63345F22253B255100C4B121 /* addingFlutterToExistingIosProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63345F37253B255900C4B121 /* addingFlutterToExistingIosProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63345F4F253B255900C4B121 /* Build configuration list for PBXNativeTarget "addingFlutterToExistingIosProjectTests" */;
+			buildPhases = (
+				3E45483A7358E001A5CB1818 /* [CP] Check Pods Manifest.lock */,
+				63345F34253B255900C4B121 /* Sources */,
+				63345F35253B255900C4B121 /* Frameworks */,
+				63345F36253B255900C4B121 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63345F3A253B255900C4B121 /* PBXTargetDependency */,
+			);
+			name = addingFlutterToExistingIosProjectTests;
+			productName = addingFlutterToExistingIosProjectTests;
+			productReference = 63345F38253B255900C4B121 /* addingFlutterToExistingIosProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		63345F42253B255900C4B121 /* addingFlutterToExistingIosProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63345F52253B255900C4B121 /* Build configuration list for PBXNativeTarget "addingFlutterToExistingIosProjectUITests" */;
+			buildPhases = (
+				B381FB7A774FBF077EA7D295 /* [CP] Check Pods Manifest.lock */,
+				63345F3F253B255900C4B121 /* Sources */,
+				63345F40253B255900C4B121 /* Frameworks */,
+				63345F41253B255900C4B121 /* Resources */,
+				75D9452772DF22DFE637DA47 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63345F45253B255900C4B121 /* PBXTargetDependency */,
+			);
+			name = addingFlutterToExistingIosProjectUITests;
+			productName = addingFlutterToExistingIosProjectUITests;
+			productReference = 63345F43253B255900C4B121 /* addingFlutterToExistingIosProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63345F1A253B255100C4B121 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Digital Dividend";
+				TargetAttributes = {
+					63345F21253B255100C4B121 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					63345F37253B255900C4B121 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 63345F21253B255100C4B121;
+					};
+					63345F42253B255900C4B121 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 63345F21253B255100C4B121;
+					};
+				};
+			};
+			buildConfigurationList = 63345F1D253B255100C4B121 /* Build configuration list for PBXProject "addingFlutterToExistingIosProject" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63345F19253B255100C4B121;
+			productRefGroup = 63345F23253B255100C4B121 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63345F21253B255100C4B121 /* addingFlutterToExistingIosProject */,
+				63345F37253B255900C4B121 /* addingFlutterToExistingIosProjectTests */,
+				63345F42253B255900C4B121 /* addingFlutterToExistingIosProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63345F20253B255100C4B121 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63345F32253B255800C4B121 /* LaunchScreen.storyboard in Resources */,
+				63345F2F253B255800C4B121 /* Assets.xcassets in Resources */,
+				63345F2D253B255100C4B121 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63345F36253B255900C4B121 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63345F41253B255900C4B121 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1FCCA2860D6D4307F71019EC /* [CP-User] Run Flutter Build flutterNavigate Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/../flutterNavigate/.metadata",
+				"${SRCROOT}/../flutterNavigate/.ios/Flutter/App.framework/App",
+				"${SRCROOT}/../flutterNavigate/.ios/Flutter/engine/Flutter.framework/Flutter",
+				"${SRCROOT}/../flutterNavigate/.ios/Flutter/flutter_export_environment.sh",
+			);
+			name = "[CP-User] Run Flutter Build flutterNavigate Script";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/../flutterNavigate/.ios/Flutter/flutter_export_environment.sh\"\n\"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh build";
+		};
+		3E45483A7358E001A5CB1818 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-addingFlutterToExistingIosProjectTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		674B17E78F2E95BE07D7F954 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-addingFlutterToExistingIosProject/Pods-addingFlutterToExistingIosProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-addingFlutterToExistingIosProject/Pods-addingFlutterToExistingIosProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-addingFlutterToExistingIosProject/Pods-addingFlutterToExistingIosProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75D9452772DF22DFE637DA47 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-addingFlutterToExistingIosProject-addingFlutterToExistingIosProjectUITests/Pods-addingFlutterToExistingIosProject-addingFlutterToExistingIosProjectUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-addingFlutterToExistingIosProject-addingFlutterToExistingIosProjectUITests/Pods-addingFlutterToExistingIosProject-addingFlutterToExistingIosProjectUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-addingFlutterToExistingIosProject-addingFlutterToExistingIosProjectUITests/Pods-addingFlutterToExistingIosProject-addingFlutterToExistingIosProjectUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B381FB7A774FBF077EA7D295 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-addingFlutterToExistingIosProject-addingFlutterToExistingIosProjectUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC28A40CF971AA7BEB571D38 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-addingFlutterToExistingIosProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63345F1E253B255100C4B121 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63345F2A253B255100C4B121 /* ViewController.swift in Sources */,
+				63345F26253B255100C4B121 /* AppDelegate.swift in Sources */,
+				63345F28253B255100C4B121 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63345F34253B255900C4B121 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63345F3D253B255900C4B121 /* addingFlutterToExistingIosProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63345F3F253B255900C4B121 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63345F48253B255900C4B121 /* addingFlutterToExistingIosProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63345F3A253B255900C4B121 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63345F21253B255100C4B121 /* addingFlutterToExistingIosProject */;
+			targetProxy = 63345F39253B255900C4B121 /* PBXContainerItemProxy */;
+		};
+		63345F45253B255900C4B121 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63345F21253B255100C4B121 /* addingFlutterToExistingIosProject */;
+			targetProxy = 63345F44253B255900C4B121 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		63345F2B253B255100C4B121 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63345F2C253B255100C4B121 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		63345F30253B255800C4B121 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63345F31253B255800C4B121 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63345F4A253B255900C4B121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		63345F4B253B255900C4B121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63345F4D253B255900C4B121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2855C8772ED040F926444F8C /* Pods-addingFlutterToExistingIosProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q4ZF5Y5FY7;
+				INFOPLIST_FILE = addingFlutterToExistingIosProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.addingFlutterToExistingIos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63345F4E253B255900C4B121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4003D7DFB2B81C72292DCE7 /* Pods-addingFlutterToExistingIosProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q4ZF5Y5FY7;
+				INFOPLIST_FILE = addingFlutterToExistingIosProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.addingFlutterToExistingIos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		63345F50253B255900C4B121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 119B55A4F4DFF6056C2DE0E4 /* Pods-addingFlutterToExistingIosProjectTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K5TA29KDPA;
+				INFOPLIST_FILE = addingFlutterToExistingIosProjectTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AA.addingFlutterToExistingIosProjectTests;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/addingFlutterToExistingIosProject.app/addingFlutterToExistingIosProject";
+			};
+			name = Debug;
+		};
+		63345F51253B255900C4B121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 111CDCC01276C06C96E48129 /* Pods-addingFlutterToExistingIosProjectTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K5TA29KDPA;
+				INFOPLIST_FILE = addingFlutterToExistingIosProjectTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AA.addingFlutterToExistingIosProjectTests;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/addingFlutterToExistingIosProject.app/addingFlutterToExistingIosProject";
+			};
+			name = Release;
+		};
+		63345F53253B255900C4B121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A487EC997BBB0DD13E7200D1 /* Pods-addingFlutterToExistingIosProject-addingFlutterToExistingIosProjectUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X5SBTK9C74;
+				INFOPLIST_FILE = addingFlutterToExistingIosProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AA.addingFlutterToExistingIosProjectUITests;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = addingFlutterToExistingIosProject;
+			};
+			name = Debug;
+		};
+		63345F54253B255900C4B121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6ADAAC02B71515E9DD0B836C /* Pods-addingFlutterToExistingIosProject-addingFlutterToExistingIosProjectUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X5SBTK9C74;
+				INFOPLIST_FILE = addingFlutterToExistingIosProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AA.addingFlutterToExistingIosProjectUITests;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = addingFlutterToExistingIosProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63345F1D253B255100C4B121 /* Build configuration list for PBXProject "addingFlutterToExistingIosProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63345F4A253B255900C4B121 /* Debug */,
+				63345F4B253B255900C4B121 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63345F4C253B255900C4B121 /* Build configuration list for PBXNativeTarget "addingFlutterToExistingIosProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63345F4D253B255900C4B121 /* Debug */,
+				63345F4E253B255900C4B121 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63345F4F253B255900C4B121 /* Build configuration list for PBXNativeTarget "addingFlutterToExistingIosProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63345F50253B255900C4B121 /* Debug */,
+				63345F51253B255900C4B121 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63345F52253B255900C4B121 /* Build configuration list for PBXNativeTarget "addingFlutterToExistingIosProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63345F53253B255900C4B121 /* Debug */,
+				63345F54253B255900C4B121 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63345F1A253B255100C4B121 /* Project object */;
+}
