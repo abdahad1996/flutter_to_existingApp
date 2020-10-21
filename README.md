@@ -10,14 +10,14 @@ adding flutter to existing native app
     
 ├── my_flutterProject/
 
-  ── .ios/
+   └── .ios/
 
    └── Flutter/
 
    └── podhelper.rb
 
 ├── MyIOSApp/
-
+  
    └── Podfile
   # install flutter module as pod for all individual target
   # subclass appdelegate
