@@ -6,19 +6,19 @@ adding flutter to existing native app
     - flutter create --template module my_flutter
   # adding a root directory and having different folders for existing ios and flutter projects 
   
-    some/path/
+   MAINPROJECT/
     
 ├── my_flutterProject/
 
-  └── .ios/
+  ── .ios/
 
-      └── Flutter/
+   └── Flutter/
 
-       └── podhelper.rb
+   └── podhelper.rb
 
-└── MyIOSApp/
+├── MyIOSApp/
 
-    └── Podfile
+   └── Podfile
   # install flutter module as pod for all individual target
   # subclass appdelegate
   # initalize flutter engine and use flutter controller and method channnels to send data back and forth 
