@@ -9,7 +9,7 @@ target 'addingFlutterToExistingIosProject' do
   use_frameworks!
 
   # Pods for addingFlutterToExistingIosProject
-  //For each Podfile target that needs to embed Flutter, you have to add this line
+#  For each Podfile target that needs to embed Flutter, you have to add this line
    install_all_flutter_pods(flutter_application_path)
 
 
